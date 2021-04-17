@@ -1,0 +1,75 @@
+﻿
+@model AspProje1.Models.Customer
+@{
+
+
+//int age = 25;
+//string value = string.Empty;
+//if (age >18)
+//{
+
+//    value = "Yaşı 18'den büyük";
+
+//}
+//else
+//{
+
+//    value = "Yaşı 18'den küçük";
+//}
+
+
+//int Calculate(int number1, int number2)
+//{
+
+//    return number1 + number2;
+//}
+//var result = Calculate(1, 2);
+
+//List<string> names = new List<string> { "yavuz", "ahmet", "ayşe", "fatih" };
+}
+
+<p>
+
+   ViewBag.Name = @ViewBag.Name
+
+</p>
+<hr />
+<p>
+
+    ViewData["Name"]=@ViewData["Name"]
+
+</p>
+<hr />
+<p>
+
+    TempData["Name"]=@TempData["Name"]
+
+</p>
+<hr />
+
+<p>
+
+    First Name = @Model.FirstName
+    <br />
+    <hr />
+    Last Name = @Model.LastName
+    <br />
+    <hr />
+    Age = @Model.Age    
+
+</p>
+
+
+
+@*@foreach (var item in names)
+{
+    <p>
+
+        @(item == "yavuz" ? "yavuz eğitmen":item)
+    </p>
+}*@
+
+
+
+ }
+
