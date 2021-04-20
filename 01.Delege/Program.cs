@@ -7,12 +7,11 @@ namespace _01.Delege
     {
         static void Main(string[] args)
         {
-
             BenimDelegem benimDelegem = new BenimDelegem(Topla);
             benimDelegem += Carp;
             benimDelegem.Invoke(1, 2);
             Console.WriteLine("Hello World!");
-         }
+        }
 
         static void Topla(int numara1, int numara2)
         {
@@ -21,11 +20,7 @@ namespace _01.Delege
 
         static void Carp(int sayi1, int sayi2)
         {
-
-            Console.WriteLine(sayi1 * sayi2);
-
-
+            Console.WriteLine(sayi1*sayi2);
         }
     }
 }
-

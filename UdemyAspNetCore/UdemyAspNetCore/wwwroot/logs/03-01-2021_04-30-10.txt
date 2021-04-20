@@ -1,0 +1,2 @@
+Hatanın gerçekleştiği yer :/Home/Hata
+Hata mesajı :Sistemsel hata oluştu
